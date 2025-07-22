@@ -32,7 +32,7 @@ trainOutput = [1, -1, 1, -1, -1, 1, -1, 1, -1, -1]
 * `crossover()`: Performs 1D slicing crossover between two individuals
 * `next_generation()`: Selects top individuals and generates new offspring
 
-## 🧬 Training (via Evolution)
+## Training (via Evolution)
 
 Training is done using evolutionary logic (commented out in code for reuse):
 
@@ -52,7 +52,7 @@ for i in range(500):
     new_generation = next_generation(selection, new_generation)
 ```
 
-## ✅ Example Trained Weights
+## Example Trained Weights
 
 The repo includes 4 pre-trained weight sets for reproducibility. Fitness evaluation for each set is printed using:
 
@@ -62,16 +62,16 @@ for i in range(4):
     print(fitness)
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 1. Clone the repo:
 
    ```bash
    git clone https://github.com/your-username/multilayer-perceptron.git
-   cd evolutionary-mlp
+   cd multilayer-perceptron
    ```
 2. Run the script:
 
    ```bash
-   python mlp_evolution.py
+   python multi_layer_perceptron.py
    ```
