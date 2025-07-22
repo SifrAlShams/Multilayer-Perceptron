@@ -67,8 +67,8 @@ for i in range(4):
 1. Clone the repo:
 
    ```bash
-   git clone https://github.com/your-username/multilayer-perceptron.git
-   cd multilayer-perceptron
+   git clone https://github.com/your-username/Multilayer-Perceptron.git
+   cd Multilayer-Perceptron
    ```
 2. Run the script:
 
